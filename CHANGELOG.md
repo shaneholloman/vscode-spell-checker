@@ -2,6 +2,112 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.1](https://github.com/shaneholloman/vscode-spell-checker/compare/code-spell-checker-v4.0.13...code-spell-checker-v4.0.1) (2024-10-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update the client/server api ([#2859](https://github.com/shaneholloman/vscode-spell-checker/issues/2859))
+
+### Features
+
+* Add command to autofix spelling issues. ([#2906](https://github.com/shaneholloman/vscode-spell-checker/issues/2906)) ([356fae5](https://github.com/shaneholloman/vscode-spell-checker/commit/356fae553b255a1d71d58c1e62912e4fa12d789a))
+* Add insert directive commands ([#2968](https://github.com/shaneholloman/vscode-spell-checker/issues/2968)) ([0c3fe26](https://github.com/shaneholloman/vscode-spell-checker/commit/0c3fe262a6cff0e3befc5b16a32ff62a42386e07))
+* Add light/dark theme support ([#2890](https://github.com/shaneholloman/vscode-spell-checker/issues/2890)) ([dc806da](https://github.com/shaneholloman/vscode-spell-checker/commit/dc806da9054fadbe8d47bf8d3740e9d2c113cd15))
+* Control which settings are passed to cspell ([#2868](https://github.com/shaneholloman/vscode-spell-checker/issues/2868)) ([68bca74](https://github.com/shaneholloman/vscode-spell-checker/commit/68bca74bee42963121efbf91fd20c504b7e5dc8f))
+* CSpell REPL ([#3109](https://github.com/shaneholloman/vscode-spell-checker/issues/3109)) ([5047a1d](https://github.com/shaneholloman/vscode-spell-checker/commit/5047a1d71588af64f30b880349aa2db31aa19d0a))
+* Enable support for [Live Share](https://code.visualstudio.com/learn/collaboration/live-share) by adding `vsls` to the list of supported schemes. ([76e1583](https://github.com/shaneholloman/vscode-spell-checker/commit/76e1583e8e6f2c7cdc0e0211074da565bf3f0e52))
+* Hide spelling issues while typing. ([#3233](https://github.com/shaneholloman/vscode-spell-checker/issues/3233)) ([fbd5134](https://github.com/shaneholloman/vscode-spell-checker/commit/fbd513486f6bf4a0e17f40932b0cca8b4481b757))
+* Improve Spelling Issues Viewer ([#3005](https://github.com/shaneholloman/vscode-spell-checker/issues/3005)) ([1b9a59d](https://github.com/shaneholloman/vscode-spell-checker/commit/1b9a59dd9feb6cd09e664f156ac9e8fc9902aa01))
+* Make it easier to decorate issues ([#2920](https://github.com/shaneholloman/vscode-spell-checker/issues/2920)) ([79f9a8b](https://github.com/shaneholloman/vscode-spell-checker/commit/79f9a8b52cfb8aac6abe1f4fb4c0f1c21591f41c))
+* Simplify file type and scheme settings ([#3244](https://github.com/shaneholloman/vscode-spell-checker/issues/3244)) ([151e7bf](https://github.com/shaneholloman/vscode-spell-checker/commit/151e7bf29909c4257966f820a99bc89e4810961e))
+* support custom decorators ([#2887](https://github.com/shaneholloman/vscode-spell-checker/issues/2887)) ([d179d2e](https://github.com/shaneholloman/vscode-spell-checker/commit/d179d2e4cd0731bb1a2ebf627caf14b8d7c21edc))
+* Support inline cspell directives ([#2966](https://github.com/shaneholloman/vscode-spell-checker/issues/2966)) ([d1b3ac3](https://github.com/shaneholloman/vscode-spell-checker/commit/d1b3ac37b8696962a617ffdb73ab53256c5a9a39))
+* Support loading local cspell dictionaries ([#2955](https://github.com/shaneholloman/vscode-spell-checker/issues/2955)) ([d0ed69d](https://github.com/shaneholloman/vscode-spell-checker/commit/d0ed69db086c2db34e5483873ba1430327e9208a))
+* Support Virtual Workspaces ([#2971](https://github.com/shaneholloman/vscode-spell-checker/issues/2971)) ([99c37d1](https://github.com/shaneholloman/vscode-spell-checker/commit/99c37d1178844175f27ae44917573a2307dc6ce8))
+* Support Word Tracing ([#2987](https://github.com/shaneholloman/vscode-spell-checker/issues/2987)) ([001645b](https://github.com/shaneholloman/vscode-spell-checker/commit/001645beda5dc9bfa2f0b53f8a26d51a65f4a748))
+* Update the client/server api ([#2859](https://github.com/shaneholloman/vscode-spell-checker/issues/2859)) ([6430b3b](https://github.com/shaneholloman/vscode-spell-checker/commit/6430b3b51198231b98fa7dfbb65e1014d39894c7))
+* Upgrade to CSpell 8 ([#2925](https://github.com/shaneholloman/vscode-spell-checker/issues/2925)) ([f984dde](https://github.com/shaneholloman/vscode-spell-checker/commit/f984ddee2b9c1669290d36715a9f51e53677954f))
+* Upgrade vscode-language-server ([#2840](https://github.com/shaneholloman/vscode-spell-checker/issues/2840)) ([b0af8f9](https://github.com/shaneholloman/vscode-spell-checker/commit/b0af8f90d209907cfb9244af296334ee62427df6))
+
+
+### Updates and Bug Fixes
+
+* Add a restart server command. ([#3253](https://github.com/shaneholloman/vscode-spell-checker/issues/3253)) ([9c1a345](https://github.com/shaneholloman/vscode-spell-checker/commit/9c1a34597120d707f3c08387a4bff35fd58afee2))
+* Add command to reload config ([#3293](https://github.com/shaneholloman/vscode-spell-checker/issues/3293)) ([da1c088](https://github.com/shaneholloman/vscode-spell-checker/commit/da1c0883668d6fc025fc7f29685069c7f1f7bc05))
+* Add CSpell Repl Terminal Profile ([#3182](https://github.com/shaneholloman/vscode-spell-checker/issues/3182)) ([6840cf7](https://github.com/shaneholloman/vscode-spell-checker/commit/6840cf72649703dcdf121933ff3fe899875d46cc))
+* Add link to suggestions ([#2888](https://github.com/shaneholloman/vscode-spell-checker/issues/2888)) ([eff9c8c](https://github.com/shaneholloman/vscode-spell-checker/commit/eff9c8cadb3ce4cc62a4dd140ae3e79e8495bae5))
+* Add suggestions to hover ([#2896](https://github.com/shaneholloman/vscode-spell-checker/issues/2896)) ([cf88324](https://github.com/shaneholloman/vscode-spell-checker/commit/cf8832486f8d768a8a5d24a9c1dfda721ce02dac))
+* Adjust the default settings ([#3089](https://github.com/shaneholloman/vscode-spell-checker/issues/3089)) ([9d92dda](https://github.com/shaneholloman/vscode-spell-checker/commit/9d92ddad4286024c622e9386ce850e81b6bd31d5))
+* Ask user to rate the Spell Checker. ([#3570](https://github.com/shaneholloman/vscode-spell-checker/issues/3570)) ([4d2c51e](https://github.com/shaneholloman/vscode-spell-checker/commit/4d2c51eb21b1454a6aaf46f3a8fa48e12accde1b))
+* Be able to enable/disable file type from info view ([#3266](https://github.com/shaneholloman/vscode-spell-checker/issues/3266)) ([5a5a435](https://github.com/shaneholloman/vscode-spell-checker/commit/5a5a435c74b4f89b089078b685848d05c3df9709))
+* Be able to fix spelling issues from the CSpell Panel ([#3260](https://github.com/shaneholloman/vscode-spell-checker/issues/3260)) ([2ab2a41](https://github.com/shaneholloman/vscode-spell-checker/commit/2ab2a41973aa13c7c4c8e6ef944a2387294383b0))
+* Change scope of decoration settings ([#3319](https://github.com/shaneholloman/vscode-spell-checker/issues/3319)) ([c3bfe3b](https://github.com/shaneholloman/vscode-spell-checker/commit/c3bfe3b70099735248433c689f2f9be470d64186))
+* change the approach to custom decorations ([#3239](https://github.com/shaneholloman/vscode-spell-checker/issues/3239)) ([bc6df01](https://github.com/shaneholloman/vscode-spell-checker/commit/bc6df0136bdad925f680d260a150ee73000fb403))
+* Commands ([#3078](https://github.com/shaneholloman/vscode-spell-checker/issues/3078)) ([d0b9eba](https://github.com/shaneholloman/vscode-spell-checker/commit/d0b9eba6ff674aadc512f797fece92ea9189ea34))
+* correct regression with spell checking commit messages ([#2872](https://github.com/shaneholloman/vscode-spell-checker/issues/2872)) ([6c82393](https://github.com/shaneholloman/vscode-spell-checker/commit/6c82393e838882e8f0e58e6255684927a101e3ce))
+* Do not glob match against `untitled:Untitled*` ([#3543](https://github.com/shaneholloman/vscode-spell-checker/issues/3543)) ([23575b2](https://github.com/shaneholloman/vscode-spell-checker/commit/23575b252b1fd8b3a3a6bacf9190104b94e61d14))
+* Enable creating config files on remote servers ([#3102](https://github.com/shaneholloman/vscode-spell-checker/issues/3102)) ([715ad29](https://github.com/shaneholloman/vscode-spell-checker/commit/715ad296f478ae8d94b6e9b0de29035445413257))
+* Enable workspace trust ([#2993](https://github.com/shaneholloman/vscode-spell-checker/issues/2993)) ([15fe163](https://github.com/shaneholloman/vscode-spell-checker/commit/15fe16369b1e241ae49dc7758415b3a9982bcf08))
+* Expose API to check documents from other extensions ([#3327](https://github.com/shaneholloman/vscode-spell-checker/issues/3327)) ([98003f2](https://github.com/shaneholloman/vscode-spell-checker/commit/98003f279ec7d2588ab38ccd0477b0c1700656e3))
+* First pass at supporting non-strict checking ([#3329](https://github.com/shaneholloman/vscode-spell-checker/issues/3329)) ([895998b](https://github.com/shaneholloman/vscode-spell-checker/commit/895998b1b0f54077b6652130f90fe931c5efbd63))
+* Fix issues with config files when using live-share ([#3339](https://github.com/shaneholloman/vscode-spell-checker/issues/3339)) ([8f1ff01](https://github.com/shaneholloman/vscode-spell-checker/commit/8f1ff01e3383f88a3718c7abfc9d530d33c8b202))
+* Fix word break issue with large documents ([#3156](https://github.com/shaneholloman/vscode-spell-checker/issues/3156)) ([6ca6d11](https://github.com/shaneholloman/vscode-spell-checker/commit/6ca6d11efa18844143f606afaf1cf2ca7028c156))
+* glob support for non-file urls ([#3447](https://github.com/shaneholloman/vscode-spell-checker/issues/3447)) ([714ed0d](https://github.com/shaneholloman/vscode-spell-checker/commit/714ed0d56d9f440bcb3528197054a80d1ada9f97))
+* Hide non-visible issues ([#3445](https://github.com/shaneholloman/vscode-spell-checker/issues/3445)) ([6f1c13e](https://github.com/shaneholloman/vscode-spell-checker/commit/6f1c13e06d849129f358aae2d1ddd01f8d065854))
+* Improve decorations and suggestions ([#2900](https://github.com/shaneholloman/vscode-spell-checker/issues/2900)) ([1bc7bd0](https://github.com/shaneholloman/vscode-spell-checker/commit/1bc7bd0de0b8853507a518feeaf9e388e040eee4))
+* improve handling of untitled files ([#3553](https://github.com/shaneholloman/vscode-spell-checker/issues/3553)) ([bf7e21d](https://github.com/shaneholloman/vscode-spell-checker/commit/bf7e21d5b49e70f3b0cb9342027b4b89fa4a357a))
+* Improve spelling info ([#3272](https://github.com/shaneholloman/vscode-spell-checker/issues/3272)) ([6af72e8](https://github.com/shaneholloman/vscode-spell-checker/commit/6af72e8a057537d781274b1a7fa67a786b46b7d1))
+* Improve the Action Menu ([#3269](https://github.com/shaneholloman/vscode-spell-checker/issues/3269)) ([7ccd4ea](https://github.com/shaneholloman/vscode-spell-checker/commit/7ccd4eafdf55519f57fcbe522c6400c901ac9182))
+* Improve the docs ([#3620](https://github.com/shaneholloman/vscode-spell-checker/issues/3620)) ([4c4f79c](https://github.com/shaneholloman/vscode-spell-checker/commit/4c4f79ce3e73f8a160cda449bad60d06ccc64675))
+* Improve the handling of spelling corrections ([#2916](https://github.com/shaneholloman/vscode-spell-checker/issues/2916)) ([be8610d](https://github.com/shaneholloman/vscode-spell-checker/commit/be8610dace320a6348c3b531f0acb99bfc35fccd))
+* Improve the REPL Check output ([#3478](https://github.com/shaneholloman/vscode-spell-checker/issues/3478)) ([b546916](https://github.com/shaneholloman/vscode-spell-checker/commit/b54691603e0f60358c97f008dcbcf201a3f0c25e))
+* Indicate on the status bar that issues are hidden ([#3326](https://github.com/shaneholloman/vscode-spell-checker/issues/3326)) ([1d9d2c6](https://github.com/shaneholloman/vscode-spell-checker/commit/1d9d2c6caee178a12ce427f53c37700f20a2075c))
+* issue when adding words to config ([#3081](https://github.com/shaneholloman/vscode-spell-checker/issues/3081)) ([ad70737](https://github.com/shaneholloman/vscode-spell-checker/commit/ad70737bed640b2073a86a0d256e80a987c8ffb5))
+* lint issues and improve error handling ([#2825](https://github.com/shaneholloman/vscode-spell-checker/issues/2825)) ([dfa5889](https://github.com/shaneholloman/vscode-spell-checker/commit/dfa58898a5b3a6e34f66e824c80deae9c3b24eff))
+* Log word replacements ([#3583](https://github.com/shaneholloman/vscode-spell-checker/issues/3583)) ([a379c78](https://github.com/shaneholloman/vscode-spell-checker/commit/a379c788d04951dad8a6d91d3e2b37c33fa37a1b))
+* make sure issues in all tabs are visible ([#3448](https://github.com/shaneholloman/vscode-spell-checker/issues/3448)) ([435032e](https://github.com/shaneholloman/vscode-spell-checker/commit/435032ec042b35e2dc4aa8acd3f975f92c825ba1))
+* Make sure the capabilities are correctly set ([#2990](https://github.com/shaneholloman/vscode-spell-checker/issues/2990)) ([c2199a9](https://github.com/shaneholloman/vscode-spell-checker/commit/c2199a9c09975762212fd46fa40582c0d27d2ee5))
+* Make sure the disabled status is shown ([#3550](https://github.com/shaneholloman/vscode-spell-checker/issues/3550)) ([ef986f0](https://github.com/shaneholloman/vscode-spell-checker/commit/ef986f004c4495b12787e4537294ee7a41f1fab4))
+* Mark the extension as "preview" ([#3302](https://github.com/shaneholloman/vscode-spell-checker/issues/3302)) ([e6d318a](https://github.com/shaneholloman/vscode-spell-checker/commit/e6d318ae74ea99c4e76f08a73dc6d247d0bf48b2))
+* move `reportUnknownWords` to Experimental ([#3333](https://github.com/shaneholloman/vscode-spell-checker/issues/3333)) ([ed20aa9](https://github.com/shaneholloman/vscode-spell-checker/commit/ed20aa92441b5a5cb7628893e3d60f29097c372f))
+* Only show spelling issues, not directives ([#3263](https://github.com/shaneholloman/vscode-spell-checker/issues/3263)) ([9c3334b](https://github.com/shaneholloman/vscode-spell-checker/commit/9c3334b1e8b3f6bd2d379f76de392147889d59f7))
+* Reduce handshaking between extension and spell checker server ([#2863](https://github.com/shaneholloman/vscode-spell-checker/issues/2863)) ([73b7c03](https://github.com/shaneholloman/vscode-spell-checker/commit/73b7c03374546fef2823534fb8fa9efe0a0b9983))
+* reduce reloading when opening a cspell config ([#2986](https://github.com/shaneholloman/vscode-spell-checker/issues/2986)) ([a8a1e18](https://github.com/shaneholloman/vscode-spell-checker/commit/a8a1e1810b550d966c157d093ed50625244f3340))
+* Reduce traffic volume between client/server ([#3256](https://github.com/shaneholloman/vscode-spell-checker/issues/3256)) ([9d46a5b](https://github.com/shaneholloman/vscode-spell-checker/commit/9d46a5b48cc4035454cd78047ae70985c44945d9))
+* Register views as soon as possible. ([#3501](https://github.com/shaneholloman/vscode-spell-checker/issues/3501)) ([34e5dd3](https://github.com/shaneholloman/vscode-spell-checker/commit/34e5dd35115406f208c201929a6aa0f4f5877b84))
+* Remove `.` from view names. ([#3498](https://github.com/shaneholloman/vscode-spell-checker/issues/3498)) ([6660d6d](https://github.com/shaneholloman/vscode-spell-checker/commit/6660d6d9b187753d46928781ce1fd5e82e40073e))
+* Remove references to fsPath ([#3306](https://github.com/shaneholloman/vscode-spell-checker/issues/3306)) ([0145f10](https://github.com/shaneholloman/vscode-spell-checker/commit/0145f1007a5734dbb8efcc6701b5251bb4afd326))
+* remove typo ([#3463](https://github.com/shaneholloman/vscode-spell-checker/issues/3463)) ([d6212e9](https://github.com/shaneholloman/vscode-spell-checker/commit/d6212e97b6d7bc5c753b492268a6aefbd954c034))
+* REPL - remove `./` from rel path ([#3452](https://github.com/shaneholloman/vscode-spell-checker/issues/3452)) ([0e03b63](https://github.com/shaneholloman/vscode-spell-checker/commit/0e03b63f7b3fb744a3a7ec661cb3774fede5ea8e))
+* Stop gap until GlobMatcher supports URLs ([#3324](https://github.com/shaneholloman/vscode-spell-checker/issues/3324)) ([9ef3093](https://github.com/shaneholloman/vscode-spell-checker/commit/9ef30934aae341ab5702f03be787615788819b0a))
+* Support Quick Fixes with custom decorators ([#2897](https://github.com/shaneholloman/vscode-spell-checker/issues/2897)) ([4e93033](https://github.com/shaneholloman/vscode-spell-checker/commit/4e93033db480c7bc1eececb336e33f1601d22323))
+* Typo in README.md ([#3037](https://github.com/shaneholloman/vscode-spell-checker/issues/3037)) ([96ed582](https://github.com/shaneholloman/vscode-spell-checker/commit/96ed582e521a8dcdbd076076e1fa3a76369f9a99))
+* Update CSpell (main) ([#3487](https://github.com/shaneholloman/vscode-spell-checker/issues/3487)) ([de554f2](https://github.com/shaneholloman/vscode-spell-checker/commit/de554f2cb1fbfbcbc1be00c68c9f0906e69dd5a0))
+* Update CSpell (main) ([#3495](https://github.com/shaneholloman/vscode-spell-checker/issues/3495)) ([d28c60f](https://github.com/shaneholloman/vscode-spell-checker/commit/d28c60f47435022ff3df869ae2a19e1fe4ba9ce4))
+* Update CSpell (main) ([#3512](https://github.com/shaneholloman/vscode-spell-checker/issues/3512)) ([ef7a320](https://github.com/shaneholloman/vscode-spell-checker/commit/ef7a32045d8c07b1d99c7389dd728ba5bf0a2853))
+* Update CSpell (main) ([#3527](https://github.com/shaneholloman/vscode-spell-checker/issues/3527)) ([ea6520d](https://github.com/shaneholloman/vscode-spell-checker/commit/ea6520db71e7542ab52d1f326727e50252f657e9))
+* Update CSpell (main) ([#3536](https://github.com/shaneholloman/vscode-spell-checker/issues/3536)) ([8c78ea8](https://github.com/shaneholloman/vscode-spell-checker/commit/8c78ea89a6b70e1b9277a89542a4313004f9cce9))
+* Update CSpell (main) ([#3555](https://github.com/shaneholloman/vscode-spell-checker/issues/3555)) ([1810a61](https://github.com/shaneholloman/vscode-spell-checker/commit/1810a61b0d4aef2b03c42fa7d43980ac6a6ecd88))
+* use opacity instead of background in trace ([#3450](https://github.com/shaneholloman/vscode-spell-checker/issues/3450)) ([dd2957c](https://github.com/shaneholloman/vscode-spell-checker/commit/dd2957c7c6ae801ecd19a1c3e3beb40b9620d2a4))
+
+
+### Miscellaneous
+
+* release 4.0.0 ([1fd9564](https://github.com/shaneholloman/vscode-spell-checker/commit/1fd956490ceb7f7af91011c95d7b7a42f1997a91))
+* release 4.0.1 ([432d5ed](https://github.com/shaneholloman/vscode-spell-checker/commit/432d5edb2964c26261525bed93b9f09602ef328b))
+* Use alpha as the prerelease type ([03100de](https://github.com/shaneholloman/vscode-spell-checker/commit/03100de64ba11a9b29f44aedca384c1c592150c5))
+
+
+### Code Refactoring
+
+* clean up legacy settings viewer ([#2866](https://github.com/shaneholloman/vscode-spell-checker/issues/2866)) ([0b0028a](https://github.com/shaneholloman/vscode-spell-checker/commit/0b0028a68f9f720061687c7a0caec0e9fd8c4944))
+* convert most client files to ESM ([#3195](https://github.com/shaneholloman/vscode-spell-checker/issues/3195)) ([f60410a](https://github.com/shaneholloman/vscode-spell-checker/commit/f60410ac5070789ed40505a35a4912cdaa9572f5))
+* move `repl/*` to `.mts` ([#3185](https://github.com/shaneholloman/vscode-spell-checker/issues/3185)) ([26446bb](https://github.com/shaneholloman/vscode-spell-checker/commit/26446bb32e769ac70c73e5a2824672619714a4bc))
+* Refactor Issues viewer ([#2914](https://github.com/shaneholloman/vscode-spell-checker/issues/2914)) ([2031949](https://github.com/shaneholloman/vscode-spell-checker/commit/20319497a19539f2bae0ff40f5e5b52e311c1a77))
+* Remove old config view ([#3291](https://github.com/shaneholloman/vscode-spell-checker/issues/3291)) ([dd42a44](https://github.com/shaneholloman/vscode-spell-checker/commit/dd42a44285c4d411870eb32f9d397d3ae64eb26f))
+* remove unused node:path ([#3449](https://github.com/shaneholloman/vscode-spell-checker/issues/3449)) ([5eb6c4a](https://github.com/shaneholloman/vscode-spell-checker/commit/5eb6c4a6c5d6f6e89638a2553943a9f279c002cb))
+
 ## [4.0.13](https://github.com/streetsidesoftware/vscode-spell-checker/compare/code-spell-checker-v4.0.12...code-spell-checker-v4.0.13) (2024-09-04)
 
 
